@@ -1,0 +1,91 @@
+body {
+  background-color: #f9f7fe;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+hr {
+  border-color: white;
+}
+
+footer {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+form {
+  display: block;
+}
+
+p strong {
+  color: #ffa952;
+}
+
+.search-field,
+.search-button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.current-weather {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.temperature {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  position: relative;
+  top: -10px;
+}
+
+.current-weather-emoji {
+  position: relative;
+  top: -15px;
+}
+
+.current-value {
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.celsius {
+  position: relative;
+  top: -29px;
+}
+
+.search-field {
+  font-size: 20px;
+  padding: 15px 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f9f7fe;
+  width: 75%;
+}
+
+.search-button {
+  font-size: 18px;
+  padding: 15px 50px;
+  font-weight: 600;
+  color: white;
+  background-color: #ef5a5a;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.page {
+  background-color: #ffffff;
+  padding: 30px;
+  max-width: 800px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 10px 15px 40px #dddada;
+}

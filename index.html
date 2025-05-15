@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Weather Application</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <form id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            id="city"
+            class="search-field"
+            required
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <hr />
+      <main>
+        <div class="current-weather">
+          <div class="current-city">
+            <h1 id="city-name">London</h1>
+
+            <p class="current-info">
+              <span class="current-time">Monday 17:11</span>, cloudy conditions
+              <br />
+              Humidity: <strong>56%</strong>, Wind: <strong>10mp/h</strong>
+            </p>
+          </div>
+
+          <div class="temperature">
+            <p>
+              <span class="current-weather-emoji">☀️</span>
+              <span class="current-value">14</span>
+              <span class="celsius">°C</span>
+            </p>
+          </div>
+        </div>
+      </main>
+      <hr />
+      <footer>
+        This project was coded by
+        <a href="#" target="_blank">Weronika Dabrowska</a> and is on
+        <a href="#" target="_blank">GitHub</a> and hosted on
+        <a href="#" target="_blank">Netlify</a>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+    </script>
+  </body>
+</html>
